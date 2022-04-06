@@ -3211,7 +3211,7 @@ input, select, textarea {
 			width: 75em;
 		}
 
-		.flexContainer{
+		/* .flexContainer{
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -3219,7 +3219,7 @@ input, select, textarea {
 
 		.flexContainer > img{
 			border-radius: 5px;
-		}
+		} */
 		
 
 			@media screen and (max-width: 1680px) {
@@ -3238,14 +3238,14 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 840px) {
+			/* @media screen and (max-width: 840px) {
 
 				.flexContainer > img {
 					width: 150px;
 					height: 150px;
 				}
 
-			}
+			} */
 
 			@media screen and (max-width: 736px) {
 
