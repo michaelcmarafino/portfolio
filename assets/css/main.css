@@ -3211,6 +3211,14 @@ input, select, textarea {
 			width: 75em;
 		}
 
+		.aboutMeTitle {
+			margin-bottom: 2rem;
+		}
+
+		.aboutMeTitle + p {
+			margin-bottom: 1.3rem;
+		}
+
 		/* .flexContainer{
 			display: flex;
 			justify-content: center;
@@ -3319,7 +3327,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					padding: 2em 0;
+					padding: 8em 0;
 					min-height: 0;
 				}
 
