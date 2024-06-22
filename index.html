@@ -403,9 +403,16 @@
                                 method="POST"
                                 action="#"
                                 data-netlify="true"
+                                netlify-honeypot="bot-field"
+                                data-netlify-recaptcha="true"
                                 name="contact"
                             >
                                 <div class="fields">
+                                    <div style="display: none;">
+                                        <label>
+                                            Only for bots: <input name="bot-field" />
+                                        </label>
+                                    </div>
                                     <div class="field half">
                                         <label for="name">Name</label>
                                         <input
@@ -423,7 +430,7 @@
                                             name="email"
                                             id="email"
                                             required
-                                            aria-required="true"
+                                             aria-required="true"
                                         />
                                     </div>
                                     <div class="field">
@@ -437,11 +444,10 @@
                                         ></textarea>
                                     </div>
                                 </div>
+                                <div data-netlify-recaptcha="true"></div>
                                 <ul class="actions">
                                     <li>
-                                        <a href="" class="button submit"
-                                            >Send Message</a
-                                        >
+                                        <input type="submit" class="button submit"/>
                                     </li>
                                 </ul>
                             </form>
